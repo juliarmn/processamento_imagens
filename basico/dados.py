@@ -23,7 +23,7 @@ print(imagem)
 
 cv2.imshow("Imagem", imagem)#Mostra a imagem muito rapidamente
 cv2.waitKey(0)#Permite a visualização da imagem até uma tecla ser apertada
-
+cv2.destroyAllWindows()
 #Mostrar de 3 em 3 o valor de cada pixel da imagem:
 #Extração de cada pixel
 for i in range(0, imagem.shape[0]):
